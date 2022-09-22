@@ -1,0 +1,17 @@
+<!doctype html>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+<html>
+<body>
+    <div class="login">
+        <h1>Register</h1>
+        <form action="/login" method = "POST">
+            <p>name <input type = "text" name = "name" /></p>
+            <p>email <input type = "email" name = "email" /></p>
+            <p>password <input type = "password" name = "password" /></p>
+            <p><input type = "submit" value = "Register" /></p>
+        </form>
+    </div>
+</body>
+</html>
+ 
